@@ -1,0 +1,53 @@
+Folder PATH listing for volume Windows
+Volume serial number is F615-4663
+C:.
+|   all_code.txt
+|   BankEase_dashboard_css_additions.css
+|   config.php
+|   db.php
+|   helpers.php
+|   index.php
+|   structure.txt
+|   style.css
+|   
++---api
+|       check_cif.php
+|       get_accounts.php
+|       get_beneficiaries.php
+|       get_branches.php
+|       get_employees.php
+|       
++---assets
+|       main.js
+|       
++---database
+|       bankease.sql
+|       
++---forms
+|       account.php
+|       address.php
+|       beneficiary.php
+|       branch.php
+|       card.php
+|       customer.php
+|       deposit.php
+|       employee.php
+|       loan.php
+|       loan_payment.php
+|       transfer.php
+|       withdrawal.php
+|       
++---lists
+|       accounts.php
+|       beneficiaries.php
+|       branches.php
+|       cards.php
+|       customers.php
+|       employees.php
+|       loans.php
+|       transactions.php
+|       
+\---partials
+        footer.php
+        header.php
+        
