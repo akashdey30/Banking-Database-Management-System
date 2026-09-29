@@ -1,0 +1,50 @@
+/* app.css - small additions on top of Bootstrap 5 */
+
+body {
+    padding-top: 56px;              /* room for the fixed top navbar */
+    background-color: #f5f7fa;
+}
+
+/* ---------- Sidebar ---------- */
+.sidebar {
+    position: sticky;
+    top: 56px;
+    min-height: calc(100vh - 56px);
+    border-right: 1px solid #dee2e6;
+}
+.sidebar .nav-link {
+    color: #333;
+    padding: .45rem 1rem;
+}
+.sidebar .nav-link:hover { background-color: #e9ecef; }
+.sidebar .nav-link.active {
+    color: #fff;
+    background-color: #0d6efd;
+}
+.sidebar-heading { font-size: .72rem; letter-spacing: .05em; }
+
+@media (max-width: 767.98px) {
+    .sidebar { position: static; min-height: 0; }
+}
+
+/* ---------- Dashboard ---------- */
+.stat-box .stat-number { font-size: 1.6rem; font-weight: 600; }
+
+.module-card {
+    text-decoration: none;
+    color: inherit;
+    transition: box-shadow .15s, transform .15s;
+}
+.module-card:hover {
+    box-shadow: 0 .4rem .9rem rgba(0, 0, 0, .12);
+    transform: translateY(-2px);
+    color: inherit;
+}
+.module-card.disabled-look { background-color: #fafafa; }
+.module-card.disabled-look .card-title { color: #6c757d; }
+
+/* ---------- Forms and tables ---------- */
+.form-label .required { color: #dc3545; }
+.table-actions form { display: inline; }
+.account-info-box { min-height: 3.2rem; }
+.balance-text { font-variant-numeric: tabular-nums; }
